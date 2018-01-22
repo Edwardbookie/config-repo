@@ -1,2 +1,6 @@
-neo:
- hello: hello im dev 3
+zuul:
+  routes:
+    user-service:
+      path: /**/consumer-movic/user/**
+      serviceId: consumer-movic
+
